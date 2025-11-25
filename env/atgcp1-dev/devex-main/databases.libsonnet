@@ -1,13 +1,13 @@
 {
-  nibasE2e: {
+  devexE2e: {
     host: '<DB_HOST_DEVEX_E2E>',
     ip: '<DB_IP_DEVEX_E2E>',
   },
-  nibas: {
+  devex: {
     host: '<DB_HOST_DEVEX>',
     ip: '<DB_IP_DEVEX>',
   },
-  nibasEvent: {
+  devexEvent: {
     host: '<DB_HOST_DEVEX_EVENT>',
     ip: '<DB_IP_DEVEX_EVENT>',
   },
@@ -20,7 +20,7 @@
     host: '<DB_HOST_WIDGETNAME>',
     ip: '<DB_IP_WIDGETNAME>',
   },
-  eiendom: {
+  widget: {
     host: '<DB_HOST_WIDGET>', # LB foran DB-cluster
     ip: '<DB_IP_WIDGET>',
   },

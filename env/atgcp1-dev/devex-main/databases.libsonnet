@@ -1,27 +1,27 @@
 {
   nibasE2e: {
-    host: '<DB_HOST_NIBAS_E2E>',
-    ip: '<DB_IP_NIBAS_E2E>',
+    host: '<DB_HOST_DEVEX_E2E>',
+    ip: '<DB_IP_DEVEX_E2E>',
   },
   nibas: {
-    host: '<DB_HOST_NIBAS>',
-    ip: '<DB_IP_NIBAS>',
+    host: '<DB_HOST_DEVEX>',
+    ip: '<DB_IP_DEVEX>',
   },
   nibasEvent: {
-    host: '<DB_HOST_NIBAS_EVENT>',
-    ip: '<DB_IP_NIBAS_EVENT>',
+    host: '<DB_HOST_DEVEX_EVENT>',
+    ip: '<DB_IP_DEVEX_EVENT>',
   },
-  kommuneinfo: {
-    host: '<DB_HOST_KOMMUNEINFO>',
-    ip: '<DB_IP_KOMMUNEINFO>',
+  widgetinfo: {
+    host: '<DB_HOST_WIDGETINFO>',
+    ip: '<DB_IP_WIDGETINFO>',
   },
   // PRODUCTION DATABASES
-  stedsnavn: {
-    host: '<DB_HOST_STEDSNAVN>',
-    ip: '<DB_IP_STEDSNAVN>',
+  widgetname: {
+    host: '<DB_HOST_WIDGETNAME>',
+    ip: '<DB_IP_WIDGETNAME>',
   },
   eiendom: {
-    host: '<DB_HOST_EIENDOM>', # LB foran DB-cluster
-    ip: '<DB_IP_EIENDOM>',
+    host: '<DB_HOST_WIDGET>', # LB foran DB-cluster
+    ip: '<DB_IP_WIDGET>',
   },
 }
